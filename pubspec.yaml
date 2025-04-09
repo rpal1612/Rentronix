@@ -1,0 +1,118 @@
+name: rentronix
+description: A rental management application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev uing `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+  geolocator: ^13.0.4
+  cupertino_icons: ^1.0.2
+  google_sign_in: ^6.1.5
+  image_picker: ^1.0.5
+#  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  path_provider: ^2.1.1
+  intl: ^0.20.2
+  flutter_rating_bar: ^4.0.0
+  cloud_firestore: 5.6.6
+  firebase_core: ^3.13.0
+  firebase_storage: ^12.4.5
+  firebase_auth: ^5.5.2
+  firebase_messaging: ^15.2.5
+  flutter_facebook_auth: ^7.1.1
+  flutter_carousel_widget: ^3.1.0
+  permission_handler: ^12.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.11
+  bdd_widget_test: ^1.2.1
+  flutter_driver:
+    sdk: flutter
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/profile_image.png
+    - assets/images/iphone15.jpg
+    - assets/images/macbook.jpeg
+    - assets/images/ipad.jpeg
+    - assets/images/camera.jpeg
+    - assets/images/headphones.jpeg
+    - assets/images/tv.jpeg
+#
+#name: rentronix
+#description: A rental management application.
+#
+#publish_to: 'none'
+#
+#version: 1.0.0+1
+#
+#environment:
+#  sdk: ">=3.4.0 <4.0.0"  # Updated for Flutter 3.29
+#
+#dependencies:
+#  flutter:
+#    sdk: flutter
+#  cupertino_icons: ^1.0.6
+#  image_picker: ^1.0.5
+#  shared_preferences: ^2.2.2
+#  flutter_secure_storage: ^9.0.0
+#  path_provider: ^2.1.1
+#  intl: ^0.19.0
+#  flutter_rating_bar: ^4.0.1
+#
+#  # Firebase packages with compatible versions for Flutter 3.29
+#  firebase_core: ^2.24.2
+#  cloud_firestore: ^4.15.2
+#  firebase_storage: ^11.5.6  # Using a slightly older version
+#  firebase_auth: ^4.16.0
+#  firebase_messaging: ^14.7.10
+#
+#  # Adding JS interop dependencies explicitly
+#  js: ^0.6.7
+#
+#  google_sign_in: ^6.2.1
+#  flutter_facebook_auth: ^6.0.4
+#  flutter_carousel_widget: ^2.1.2
+#
+#dependency_overrides:
+#  # Force a specific version of firebase_storage_web that works better
+#  firebase_storage_web: 3.6.17
+#
+#dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
+#  flutter_lints: ^3.0.1
+#  build_runner: ^2.4.7
+#  bdd_widget_test: ^1.6.0
+#  flutter_driver:
+#    sdk: flutter
+#
+#flutter:
+#  uses-material-design: true
+#
+#  assets:
+#    - assets/images/profile_image.png
