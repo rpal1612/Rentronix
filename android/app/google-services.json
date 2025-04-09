@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269775131134",
+    "project_id": "rentronix-999d6",
+    "storage_bucket": "rentronix-999d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269775131134:android:b0956c384ff485e76130af",
+        "android_client_info": {
+          "package_name": "com.example.rentronix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk8legz1SGJOBcC0WlvUojMB5R3WCJDE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
